@@ -1,14 +1,22 @@
 <script>
-let name = 'svelte';
-let src = 'https://picsum.photos/200/300';
-let string = 'Some <strong>HTML</strong> string';
+// let name = 'svelte';
+// let src = 'https://picsum.photos/200/300';
+// let string = 'Some <strong>HTML</strong> string';
+
+import Counter from './lib/Counter.svelte';
+
 </script>
 
-<img {src} alt="">
+<Counter />
+
+
+<!-- <img {src} alt="">
 <h1>Hello {name.toUpperCase()}</h1>
-<p>{@html string}</p>
+<p>{@html string}</p> -->
+
+
 <style>
-h1 {
+/* h1 {
   color: red;
-}
+} */
 </style>
